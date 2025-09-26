@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Multimedia</title>
+</head>
+
+ <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            font-family: Helvetica, sans-serif;
+            color: black;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+
+        h1{ 
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            font-size: 2em;
+            color: black;
+            font-family: Helvetica, sans-serif;
+            border-radius: 2.5em;
+
+        }
+
+        body{
+            background-color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        table{
+           width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header{
+            background-color: #343a40;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        td{
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #333;
+            font-size: 16px;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+        }
+
+         td:first-child {
+            background-color: #f1f2f3;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+         iframe {
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            max-width: 100%;
+            height: 300px;
+            width: 350px;
+        }
+        
+
+        .border{
+            border: 1px solid #000;
+            background-color: #000;
+            background-size: .05px;
+        }
+
+        tfoot{
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 1.5em;
+            color: black;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+<body>
+    <h1>
+        Tabla multimedia
+    </h1>
+    <br>
+
+    <div>
+        <table>
+        <thead>
+            <tr class="header">
+                <th>Categorias</th>
+                <th>Video de Youtube</th>
+                <th>Video de Facebook</th>
+                <th>Video Propio</th>
+                <th>Hobbies</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <tr>
+                <td>Musica</td>
+                <td>
+                   <iframe width="376" height="376" src="https://www.youtube.com/embed/dERcdvcXuE0?si=7IykVD-k3KHJxzhF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <td>
+                   <iframe src="https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Flifeboxset%2Fvideos%2F948305855679935%2F&show_text=false&width=560&t=0" width="376" height="376" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                <td>
+                  <iframe width="376" height="376" src="https://www.youtube.com/embed/XC61gApOFac?si=Acdiuh59h0nE-30l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                  <img src="images/musica 2222.jpg" alt="tocando musica" width="240" height="240">
+                </td>
+                
+            </tr>
+            <br>
+            
+            <tr>
+                <td>Lectura</td>
+                <td><iframe width="376" height="376" src="https://www.youtube.com/embed/3nNUiasu_iA?si=IQ0NJy_FKBBJ26yV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <td><iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuyhistoria%2Fvideos%2F10158197239515868%2F&show_text=false&width=476&t=0" width="376" height="376" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+                <td><iframe width="376" height="376" src="https://www.youtube.com/embed/glnykcSDHFc?si=2ZoFsAOQhJ0rSkAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                    <img src="images/lectura66.jpg" alt="Libros Mios" width="240" height="240">
+                </td>
+            </tr>
+            <br>
+            
+            <tr>
+                <td>Arte</td>
+                <td><iframe width="376" height="376" src="https://www.youtube.com/embed/DOuc2DurlzU?si=ybf8JphX7Wvq6Pl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               
+                    <td><iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjustsatisfyingthings%2Fvideos%2F286473505487787%2F&show_text=false&width=476&t=0" width="376" height="376" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+               
+                        <td><iframe width="376" height="376" src="https://www.youtube.com/embed/_EWqFKpXVSI?si=d-nuRq2zJIs3WmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               
+                            <td><img src="images/arte444.jpg" alt="Arte" width="240" height="240">
+                            </td>
+            </tr>
+            </tbody>
+        <tfoot>
+                <td colspan="5"> ©Sergio Aguirre - Tabla Multimedia - IDAI </td>
+            
+        </tfoot>
+    </table>
+    </div>
+
+</body>
+</html>

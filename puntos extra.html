@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NFL Puntos Extra</title>
+    <style>
+
+        * {
+            text-align: center;
+            font-family: 2em Helvetica, sans-serif;
+        }
+
+        table {
+            background-color: black;
+            color: #f2f2f2;
+            margin: 0 ;
+            padding: 15px;
+            width: 100%;
+        }
+        
+        .tabla{
+            text-align: center;
+            color: orange;
+        }
+
+        .tabla2{
+            text-align: center;
+            color: #f2f2f2;
+            padding: 15px;
+            margin: 0;
+            width: 100%;
+        }
+        .super{
+            text-transform: uppercase;
+            color: yellow;
+        }
+
+        .border{
+
+            color: #f2f2f2;
+            background-color: #f2f2f2;
+            border-inline-start: 15px;
+        }
+
+        body {
+            background-color: gray;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <table class="tabla">
+        <tr>
+            <td>
+                <img src="images/steelers.jpg"
+             alt="steelers" width="150" height="150" />
+            </td>
+            <td class="super">¡Los equipos más ganadores del Superbowl!</td>
+            <td>
+                <img src="images/patriots.jpg" alt="Patriots" width="150" height="150" />
+            </td>
+        </tr>
+        <tr>
+            <td>Una de las grandes hazañas de los Pittsburgh Steelers en el Super Bowl fue en 2009 cuando ganaron su sexto título, convirtiéndose en el equipo con más campeonatos en la historia de la NFL en ese momento</td>
+          <td>
+            <hr style="height: 1px; background-color: #f2f2f2; border: none; margin: 8px 0;">
+          </td>
+            <td>Una gran hazaña de los Patriots fue en el Super Bowl LI (2017), cuando hicieron la mayor remontada en la historia del juego perdían 28-3 contra los Falcons y lograron ganar 34-28 en tiempo extra</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;">
+                (Ganadores de 4 o más trofeos Vince Lombardi)
+            </td>
+        </tr>
+    </table>
+
+        <br>    
+
+    <audio id="Audio" autoplay loop>
+        <source src="Audio/FOX  Sunday NFL Theme Song in HD.mp3" type="audio/mpeg" />
+        audio HTML5.
+    </audio>
+
+    <button onclick="pausarAudio()">Pausar</button>
+    <button onclick="reproducirAudio()">Reproducir</button>
+
+    <script>
+        const audio = document.getElementById("Audio");
+
+        function pausarAudio() {
+            audio.pause();
+        }
+
+        function reproducirAudio() {
+            audio.play();
+        }
+    </script>
+
+    <br>
+    <br>
+
+    <table class="tabla2">
+        <tr>
+            <td>
+                <img src="images/packers.jpg" alt="Packers" width="150" height="150" />
+            </td>
+            <td>
+                <img src="images/gigants.jpg" alt="Gigants" width="150" height="150" />
+            </td>
+            <td>
+                <img src="images/dallas.jpg" alt="Dallas" width="150" height="150" />
+            </td>
+            <td>
+                <img src="images/49ers.jpg" alt="49s" width="150" height="150" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1965, 1966, 1967, 1996, 2010
+            </td>
+            <td>
+                1987, 1991, 2008, 2012
+            </td>
+            <td>
+                1972, 1978, 1993, 1994, 1996
+            </td>
+            <td>
+                1982, 1985, 1989, 1990, 1995
+            </td>
+        </tr>
+    </table>
+
+    <hr style="border: solid #f2f2f2;" />
+
+    <marquee style="color: black; background-color: white; padding: 10px; text-align: center; font-weight: bold;">
+        Broncos (3), Raiders (3), Redskins (3), Delfines (2), Potros (2).
+    </marquee>
+
+    <hr style="border: solid #f2f2f2;" />
+    <hr style="border: solid blueviolet;" />
+
+    <p>Si quieres conocer más ingresa a <a href="https://www.nfl.com/international/" target="_blank" rel="noopener noreferrer">NFL</a></p>
+
+    <hr style="border: solid blueviolet;" />
+
+    <footer>@Sergio Aguirre @Matricula:45748</footer>
+
+</body>
+</html>
